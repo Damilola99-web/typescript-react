@@ -1,0 +1,18 @@
+.App {
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	background: rgb(89, 130, 243);
+	align-items: center;
+}
+
+.heading {
+  z-index: 1;
+  text-align: center;
+  color: white;
+  margin: 30px 0px;
+  font-size: 40px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-transform: uppercase;
+}
