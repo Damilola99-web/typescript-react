@@ -6,7 +6,7 @@ const App = () => {
 	
 	return (
 		<div className="App">
-			<Greet name='korede' count={9} />
+			<Greet name='korede' count={8} />
 		</div>
 	);
 };
