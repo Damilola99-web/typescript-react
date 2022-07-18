@@ -1,12 +1,13 @@
 import React from 'react';
 type greetProps = {
-    name : string
+    name : string,
+    count: number
 }
 
-export default function Greet({name}:greetProps) {
+export default function Greet({name, count}:greetProps) {
   return (
     <div>
-      <h2>Hello {name}, you have 10 unread messages</h2>
+      <h2>Hello {name}, you have {count} unread messages</h2>
     </div>
   );
 }
