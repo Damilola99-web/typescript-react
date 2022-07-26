@@ -1,7 +1,7 @@
 import { useContext } from "react";
-import { ThemeContext } from "../context/ThemeContext";
+import { newContext } from "../context/Reducer";
 
 export const useTheme =()=>{
-    const theme = useContext(ThemeContext)
+    const theme = useContext(newContext)
     return theme
 }
