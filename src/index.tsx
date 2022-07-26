@@ -4,14 +4,17 @@ import './index.css';
 import App from './App';
 import { NewProvider } from './context/Reducer';
 import { TimerProvider } from './context/TimerContext';
+import { ThemeContextProvider } from './context/ThemeContext';
 
 const root = ReactDOM.createRoot(document.getElementById('root') as HTMLElement);
 root.render(
 	<React.StrictMode>
 		<NewProvider>
-			<TimerProvider>
-				<App />
-			</TimerProvider>
+			<ThemeContextProvider>
+				<TimerProvider>
+					<App />
+				</TimerProvider>
+			</ThemeContextProvider>
 		</NewProvider>
 	</React.StrictMode>
 );

@@ -1,5 +1,4 @@
 import React from 'react';
-import { useTheme } from '../hooks/useTheme';
 import Close from '../assets/icon-close.svg'
 import Form from './Form';
 

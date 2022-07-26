@@ -11,8 +11,6 @@ const App = () => {
 	const [isSettingsOpen, setIsSettingsOpen] = useState(false)
 
 	const state = theme?.state;
-	const changeFont = theme?.changeFont;
-	const changeTheme = theme?.changeTheme
 	const cl = timer?.changeLong 
 	const cs = timer?.changeShort
 	const short = timer?.short
