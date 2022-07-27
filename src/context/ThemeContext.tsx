@@ -5,7 +5,7 @@ type contextProp = {
 	children: React.ReactNode;
 };
 
-type theme = '#e74f4f' | 'green' | 'rgb(219 39 119)'
+type theme = '#e74f4f' | '#008000' | 'rgb(219 39 119)'
 
 type themeState = {
 	theme : theme

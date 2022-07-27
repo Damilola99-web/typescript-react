@@ -3,3 +3,7 @@
 @tailwind utilities;
 
 @import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@200;300;400;500;600&family=Roboto+Slab:wght@200;300;400;500;600&family=Space+Mono:wght@400;700&display=swap');
+
+.max {
+    height: max(100vh, 730px);
+}

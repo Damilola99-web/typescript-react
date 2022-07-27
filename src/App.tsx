@@ -15,9 +15,8 @@ const App = () => {
 	const cs = timer?.changeShort
 	const short = timer?.short
 	const long = timer?.long
-	console.log(state);
 	return (
-		<div style={{ backgroundColor: '#1e213f', fontFamily: state?.font }} className="App w-screen h-screen text-white text-xl">
+		<div style={{ backgroundColor: '#1e213f', fontFamily: state?.font }} className="App w-screen max py-8  text-white text-xl">
 			<h1>Promodoro</h1>
 			<p>Be productive the right way.</p>
 			<p>long :{long}</p>
