@@ -573,6 +573,22 @@ video {
   left: 0px;
 }
 
+.left-\[calc\(50\%-px\)\] {
+  left: calc(50% - px);
+}
+
+.left-\[calc\(50\%-60px\)\] {
+  left: calc(50% - 60px);
+}
+
+.left-\[calc\(50\%-80px\)\] {
+  left: calc(50% - 80px);
+}
+
+.left-\[calc\(50\%-85px\)\] {
+  left: calc(50% - 85px);
+}
+
 .my-4 {
   margin-top: 1rem;
   margin-bottom: 1rem;

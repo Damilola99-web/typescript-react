@@ -63,7 +63,7 @@ export default function Form({setIsSettingsOpen}:formProp) {
       {/* colors  */}
       <ColorSelector theme={theme} setUserTheme={setUserTheme} />
       
-      <button type='submit' style={{backgroundColor: color?.state.theme}} className=' absolute bottom-[-20px] left-[calc(50%-75px)] w-[170px] h-[50px] rounded-[2rem] text-white'>Apply</button>
+      <button type='submit' style={{backgroundColor: color?.state.theme}} className=' absolute bottom-[-20px] left-[calc(50%-85px)] w-[170px] h-[50px] rounded-[2rem] text-white'>Apply</button>
     </form>
   );
 }
